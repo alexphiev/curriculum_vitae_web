@@ -1,0 +1,105 @@
+html {
+  background: url(img/background_sky.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+div {
+  overflow: auto;
+}
+
+#CV_title_div {
+  position: absolute;
+  z-index: 99;
+  top: 3%;
+  left: 3%;
+  bottom: 80%;
+  right:3%;
+  font-size: 2.5vw; /* Global responsive font size*/
+}
+
+#CV_content_div {
+  padding: 0px;
+  position: absolute;
+  z-index: 99;
+  top: 23%;
+  left: 12%;
+  bottom: auto;
+  max-height: 70%;
+  right:12%;
+  font-size: 16px; /* Global responsive font size*/
+  color: white;
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius:16px;
+}
+
+#title1 {
+  font-size: 160%;
+  font-weight: 100; /* light font size */
+}
+
+#first_sentence {
+  font-size: 25px;
+}
+
+.category_title{
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  background-color: rgba(0, 0, 0, 0.40);
+  position: relative;
+
+}
+
+table {
+  border-collapse: collapse;
+  border-style: hidden;
+  margin-top: 10px;
+  margin-bottom: : 10px;
+}
+
+td, th {
+  text-align: left;
+  padding: 8px;
+}
+
+td + td, th + th { border-left: 1px solid; }
+tr + tr { border-top: 1px solid; }
+
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border: 0px dotted #720c0c;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+::-webkit-scrollbar-track {
+  background: #666666;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
