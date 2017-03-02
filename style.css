@@ -8,6 +8,14 @@ html {
   color: white;
 }
 
+a {
+  color: white;
+}
+
+br {
+  line-height: 190%;
+}
+
 div {
   overflow: auto;
 }
@@ -22,15 +30,54 @@ div {
   font-size: 2.5vw; /* Global responsive font size*/
 }
 
-#CV_content_div {
-  padding: 0px;
+#content_div {
   position: absolute;
   z-index: 99;
   top: 23%;
-  left: 12%;
-  bottom: auto;
+  left: 1%;
+  right:3%;
+  bottom: 0%;
+  max-height: 75%;
+  font-size: 16px; /* Global responsive font size*/
+  color: white;
+  padding: 0px;
+}
+
+#contact_div {
   max-height: 70%;
-  right:12%;
+  position: absolute;
+  z-index: 99;
+  left: 0%;
+  right: 74%;
+  bottom: auto;
+  font-size: 14px; /* Global responsive font size*/
+  color: white;
+  text-align: center;
+}
+
+.contact_insider_div {
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius: 16px;
+  padding-bottom: 10px;
+}
+
+.title_contact {
+  margin-bottom: 10px;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  background-color: rgba(0, 0, 0, 0.40);
+  position: relative;
+  font-size: 130%;
+}
+
+#CV_content_div {
+  position: absolute;
+  z-index: 99;
+  right: 0%;
+  bottom: auto;
+  width: 73%;
   font-size: 16px; /* Global responsive font size*/
   color: white;
   background-color: rgba(0, 0, 0, 0.35);
