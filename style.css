@@ -20,23 +20,59 @@ div {
   overflow: auto;
 }
 
-#CV_title_div {
+#header {
   position: absolute;
   z-index: 99;
   top: 3%;
   left: 3%;
-  bottom: 80%;
+  bottom: 75%;
   right:3%;
   font-size: 2.5vw; /* Global responsive font size*/
+}
+
+#photo {
+  background: url(img/photo.png) no-repeat center center;
+  background-size: 150px;
+  position: absolute;
+  z-index: 99;
+  top: 0%;
+  right: 0%;
+  min-height: 100%;
+  width: 20%;
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 20px;
+}
+
+#CV_title_div {
+  position: absolute;
+  z-index: 99;
+  top: 0%;
+  left: 0%;
+  right:auto;
+  max-width: 75%;
+  font-size: 2.5vw; /* Global responsive font size*/
+}
+
+#title1 {
+  font-size: 40px;
+  font-weight: 100; /* light font size */
+  padding: 15px;
+}
+
+#first_sentence {
+  font-size: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 15px;
 }
 
 #content_div {
   position: absolute;
   z-index: 99;
-  top: 23%;
+  top: 28%;
   left: 1%;
   right:3%;
-  bottom: 0%;
+  bottom: 3%;
   max-height: 75%;
   font-size: 16px; /* Global responsive font size*/
   color: white;
@@ -78,19 +114,12 @@ div {
   right: 0%;
   bottom: auto;
   width: 73%;
+  max-height: 100%;
   font-size: 16px; /* Global responsive font size*/
   color: white;
   background-color: rgba(0, 0, 0, 0.35);
   border-radius:16px;
-}
-
-#title1 {
-  font-size: 160%;
-  font-weight: 100; /* light font size */
-}
-
-#first_sentence {
-  font-size: 25px;
+  overflow: auto;
 }
 
 .category_title{
@@ -101,10 +130,6 @@ div {
   background-color: rgba(0, 0, 0, 0.40);
   position: relative;
   font-size: 130%;
-}
-
-.category_title:hoover{
-  background-color: red;
 }
 
 table {
@@ -120,8 +145,8 @@ td, th {
 
 .first_column {
   table-layout:fixed;
-    width: 20%;
-    text-align: center;
+  width: 20%;
+  text-align: center;
 }
 
 td + td, th + th { border-left: 1px solid rgba(255, 255, 255, 0.15);}
