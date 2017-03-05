@@ -41,7 +41,7 @@ div {
   width: 20%;
   max-width: 150px;
   max-height: 150px;
-  border-radius: 20px;
+  border-radius: 15%;
 }
 
 #CV_title_div {
@@ -57,13 +57,13 @@ div {
 #title1 {
   font-size: 40px;
   font-weight: 100; /* light font size */
-  padding: 15px;
+  padding: 10px;
 }
 
 #first_sentence {
   font-size: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.5);
-  padding: 15px;
+  padding: 10px;
 }
 
 #content_div {
@@ -80,7 +80,7 @@ div {
 }
 
 #contact_div {
-  max-height: 70%;
+  max-height: 100%;
   position: absolute;
   z-index: 99;
   left: 0%;
@@ -132,6 +132,13 @@ div {
   font-size: 130%;
 }
 
+.category_title:hover {
+  font-size: 135%;
+  font-weight: bold;
+   border: 1px solid white;
+    border-radius: 16px;
+}
+
 table {
   width:100%;
   border-collapse: collapse;
@@ -149,7 +156,7 @@ td, th {
   text-align: center;
 }
 
-td + td, th + th { border-left: 1px solid rgba(255, 255, 255, 0.15);}
+td + td, th + th { border-left: 1px solid rgba(255, 255, 255, 0.15); }
 tr + tr { border-top: 1px solid rgba(255, 255, 255, 0.15); }
 
 li {
